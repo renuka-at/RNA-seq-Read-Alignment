@@ -12,7 +12,7 @@ indexAll.sh: Indexes sorted BAM files for easier data access.
 Getting Started
 
 1. Log in to the HPC Cluster
-2. Clone the repository:
+2. Clone the repository
 3. Start a compute session:
 srun --partition=short --pty --export=ALL --nodes=1 --ntasks=1 --mem=10Gb --time=02:00:00 /bin/bash
 
